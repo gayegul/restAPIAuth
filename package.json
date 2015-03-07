@@ -1,0 +1,42 @@
+{
+  "name": "restAPIAuth",
+  "version": "1.0.0",
+  "description": "A single resource express mongo API with authentication",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.12.0",
+    "eat": "^0.1.1",
+    "express": "^4.11.2",
+    "mongoose": "^3.8.23",
+    "passport": "^0.2.1",
+    "passport-http": "^0.2.2"
+  },
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "chai-http": "^1.0.0",
+    "mocha": "^2.1.0"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gayegul/restAPIAuth.git"
+  },
+  "keywords": [
+    "authentication",
+    "mongo",
+    "express"
+  ],
+  "author": "Gaye Bulut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gayegul/restAPIAuth/issues"
+  },
+  "homepage": "https://github.com/gayegul/restAPIAuth"
+}

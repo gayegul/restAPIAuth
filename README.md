@@ -1,2 +1,3 @@
 # restAPIAuth
-A single resource RESTful API with authentication
+
+A single resource REST API with Express that is backed by Mongo with Authentication
